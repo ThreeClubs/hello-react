@@ -6,14 +6,80 @@
 
 body {
   margin: 0;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(105deg, #a7f0f1, #d8ac75);
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+  min-width: 300px;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container, .main, .car {
+  width: 80%;
+  min-width: 270px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border:3px solid #d8ac75;
+  border-radius: 0px 24px 0px 24px;
+  padding: 20px 0px;
+  background-color: #effeff;
+  color: #532e00;
+  box-shadow: 1px 1px 5px 3px rgb(94, 93, 93);
+}
+
+.main {
+  height: 50vh;
+}
+
+.navBar, .footer {
+  width: 100%;
+  min-width: 270px;
+  height: 8vh;
+  background-color: rgba(50, 150, 200, 0.3);
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover {
+  background-color: rgba(50, 50, 50, 0.2);
+}
+
+.fruitDisplay {
+  margin: 20px auto 0px;
+  width: 250px;
+  text-align: left;
+  background: rgba(50, 150, 200, 0.1);
+  box-shadow: 0px 0px 3px 2px rgba(50, 50, 50, 0.2);
+}
+
+.fruits {
+  color: #002d3f;
+  font-weight: 500;
+  padding: 5px;
+  border: solid 1px rgba(50, 50, 50, 0.2);
 }
