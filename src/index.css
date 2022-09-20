@@ -17,7 +17,6 @@ body {
   background-repeat: none;
   height: 100vh;
   min-width: 300px;
-
 }
 
 code {
@@ -25,12 +24,14 @@ code {
     monospace;
 }
 
-.container, .main, .car {
+.container,
+.main,
+.car {
   width: 80%;
   min-width: 270px;
   margin: 0 auto;
   margin-top: 50px;
-  border:3px solid #d8ac75;
+  border: 3px solid #d8ac75;
   border-radius: 0px 24px 0px 24px;
   padding: 20px 0px;
   background-color: #effeff;
@@ -42,7 +43,8 @@ code {
   height: 50vh;
 }
 
-.navBar, .footer {
+.navBar,
+.footer {
   width: 100%;
   min-width: 270px;
   height: 8vh;

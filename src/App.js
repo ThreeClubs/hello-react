@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Car from "./components/Car";
+import Person from "./components/Person";
 
 const message1 = "Hello";
 const message2 = "What's going on?";
@@ -51,13 +52,29 @@ const myObj = {
   },
 };
 
+// MORE DESTRUCTURING
+
 const { name, email } = myObj;
 console.log(name, email);
+
+const [first, , third] = ["Simon", "Anaru", "Pei-Ying"];
+console.log(first, third);
+
+// so we don't need to declare the variable as below which saves space and makes it
+//more readable
+
+let a, b;
+[a, , b] = ["Shona", "Arabella", "Poh"];
+console.log(a);
+console.log(b);
+
+// APP PROPER
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
+      <Person name="Andrew" age="37"></Person>
       <div className="container">
         <h1>{greet("Reuben").name}</h1>
         <h2>How are you? </h2>
