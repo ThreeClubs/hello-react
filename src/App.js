@@ -81,7 +81,7 @@ function App() {
         <h3>The weather could be better</h3>
       </div>
       <Main stuff={message2}></Main>
-      <Car colour="red" carName="Toyota" copyrightYear={message3}></Car>
+      <Car colour="red" carName="Toyota"></Car>
       <Footer text={message3}></Footer>
     </>
   );
